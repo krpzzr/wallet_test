@@ -22,5 +22,15 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+/* Responsive tweaks for <=1120px */
+@media (max-width: 1120px) {
+  .mobile-stack-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
 }
